@@ -1,14 +1,23 @@
-﻿.sydney-hero-area {
-    position: relative;
-  }
-  
-  .moji{
-      position: absolute;
-       top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
-  }
+﻿video{
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ z-index: -100;
+ background: url(movie.jpg) no-repeat;
+ background-size: cover;
+}
+.cont{
+ display:flex;
+ justify-content:center;
+ margin: 30% 0 0;
+}
+.cont-inner{
+ width: 210px;
+ padding: 20px;
+ border: solid 1px #fff;
+ color: #fff;
+}
