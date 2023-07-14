@@ -2,8 +2,8 @@ body{
     margin:0;
   }
   .visual{
-    width:100%;
-    height:400px;
+    width: 50%;
+    height: 200px;
     position:relative;
     z-index: -1;
     background: url(https://drive.google.com/uc?export=view&id=1dfggPRHy9OHNVM0ds9YN97GODQAALRAM) no-repeat  bottom;
@@ -11,7 +11,7 @@ body{
     text-align: center;
   }
   #video {
-    width:100%;
+    width:50%;
     height: 200px;
     overflow:hidden;
     display: flex;
