@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    --background-body: #f9f9f9;
+    --background-alt: #eeeeee;
+    --text-strong: #222222;
+    --text-main: #444444;
+    --text-muted: #888888;
+    --accent: lightseagreen;
+    --focus: #4a8aa1;
+    --visited: violet;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --background-body: #444444;
+        --background-alt: #eeeeee;
+        --text-strong: #222222;
+        --text-main: #444444;
+        --text-muted: #888888;
+        --accent: lightseagreen;
+        --focus: #4a8aa1;
+        --visited: violet;
+    }
+}
